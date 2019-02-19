@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Category">
+        <group android:checkableBehavior="single">
+            <item android:title="Planets"
+                android:id="@+id/nav_planets" />
+            <item android:title="Starships"
+                android:id="@+id/nav_starships" />
+            <item android:title="Vehicles"
+                android:id="@+id/nav_vehicles" />
+        </group>
+    </item>
+</menu>
